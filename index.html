@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main-container-all">
+    <section class="main-formular-container">
+      <div class="top-formular">
+        <input type="number" id="number" class="top-formular--input" min="1" max="20" step="1" value="1">
+        <span  class="top-formular--generator"><a href="#" onclick="generator()" >Generate</a></span>
+        <span class="top-formular--reset" id="resetear" onclick="reset()">Reset</span>
+      </div>
+      <div class="midtle-formular">
+          <table id="table">
+            <tr>
+              <th>Nombre:</th>
+              <th>Apellido:</th>
+              <th>Edad:</th>
+            </tr>
+          </table>
+        </div>
+    </section>
+  </main>
+  <script src="./js/action.js"></script>
+</body>
+</html>

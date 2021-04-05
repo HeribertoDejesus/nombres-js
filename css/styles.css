@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right top, #d13939, #bb3154, #9c3564, #783b69, #563c61, #4e3965, #433769, #33366d, #2d3489, #2531a4, #1d2abe, #1d1dd8);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container-all {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main-formular-container {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: 400px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 10px;
+}
+.top-formular {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.top-formular-input {
+  outline: none;
+  margin-right: 10px;
+}
+.top-formular--generator a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.top-formular--reset {
+  color: rgb(175, 167, 167);
+}
+.top-formular--reset:hover {
+  color: rgb(175, 167, 167);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.midtle-formular {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #fff;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: scroll;
+}
+.midtle-formular form input {
+  width: 400px;
+  height: 250px;
+  color: #000;
+  background-color: rgb(236, 228, 228);
+  outline: none;
+  justify-self: center;
+}
+.midtle-formular table {
+  width: 100%;
+}
+.midtle-formular table tr th {
+  font-size: 20px;
+}
+td {
+text-align: center;
+text-decoration: underline;
+font-size: 18px;
+}
