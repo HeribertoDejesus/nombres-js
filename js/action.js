@@ -51,12 +51,12 @@ if (random == 0) {
   document.getElementById("table").innerHTML += "<td>" + this["nuevoRegistro"].nombre + "</td>" + "<td>" + this["nuevoRegistro"].apellido + "</td>" + "<td>" + this["nuevoRegistro"].edad + "</td>";
 }
   else if (random == 1){
-    this["nuevoRegistro"] = new nombres(nombre[random], apellido[Math.floor(Math.random() * 3)], edad[Math.floor(Math.random() * 4)]);
+    this["nuevoRegistro"] = new nombres(nombre[random], apellido[Math.floor(Math.random() * 4)], edad[Math.floor(Math.random() * 4)]);
     resultado.push(this["nuevoRegistro"]);
     document.getElementById("table").innerHTML += "<td>" + this["nuevoRegistro"].nombre + "</td>" + "<td>" + this["nuevoRegistro"].apellido + "</td>" + "<td>" + this["nuevoRegistro"].edad + "</td>";
   }
   else{
-    this["nuevoRegistro"] = new nombres(nombre[random], apellido[Math.floor(Math.random() * 3)], edad[Math.floor(Math.random() * 4)]);
+    this["nuevoRegistro"] = new nombres(nombre[random], apellido[Math.floor(Math.random() * 4)], edad[Math.floor(Math.random() * 4)]);
     resultado.push(this["nuevoRegistro"]);
     document.getElementById("table").innerHTML += "<td>" + this["nuevoRegistro"].nombre + "</td>" + "<td>" + this["nuevoRegistro"].apellido + "</td>" + "<td>" + this["nuevoRegistro"].edad + "</td>";
    }
